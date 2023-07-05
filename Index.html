@@ -2,8 +2,283 @@
 <html lang="en">
 <head>
     <title>Premimum Watch Store</title>
+    <style>
+        body{
+            padding: none;
+        }
+        .container-navbar{
+            background-image: linear-gradient(#f7f8f8,#d0dbeb);
+            padding: 5px;
+            border-radius: 10px;
+            
+        }
+        .container-nav{
+            display: flex;
+            align-items: center;
+        }
+        .logo-img{
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+        }
+        .title{
+            font-size: 25px;
+            font: bold;
+        }
+        .nav-menu{
+            margin-left: 80px;
+        }
+        .menus
+        {
+            margin-left:40px ;
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        .nav-searchbar{
+            margin-left: auto;
+        }
+        #searchbar{
+            width: 270px;
+            height: 40px;
+            border-radius: 20px;
+            padding: 5px;
+            text-align: center;
+        }
+        #searchbar:hover{
+            cursor: pointer;
+            transition:0.5s ;
+            width: 270px;
+            box-shadow: 0px 0px 8px grey;
+        }
+        .container-greetings{
+            margin: 30px;
+            background-color:white ;
+            opacity: 0.8;   
+        }
+        .greetings-text{
+            font-size: 40px;
+
+        }
+        .container-mainimg{
+            display: flex;
+          justify-content: space-around;
+          padding-left: 50px;
+          padding-right: 50px;
+         
+        }
+        .main-img{
+            box-shadow: 3px 3px 8px gray;
+            
+        }
+        .virat{
+            border-radius: 5px;
+            height: 300px;
+
+        }
+        .text-heading{
+            font-size: 55px;
+            font: bold;
+        }
+        .text{
+            font-size: 25px;
+            
+        }
+        .main-text{
+          text-align: center;
+          padding: 40px;
+        }
+        @media screen and (min-width: 900px) and (max-width:1200px){
+            .logo-img{
+            height: 50px;
+            width: 50px;
+        }
+        .title{
+            font-size: 23px;
+        }
+        .nav-menu{
+            margin-left: 10px;
+        }
+        .menus
+        {
+            margin-left:20px ;
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        #searchbar{
+            width: 200px;
+            height: 40px;
+            border-radius: 20px;
+            padding: 5px;
+            text-align: center;
+        }
+        #searchbar:hover{
+            cursor: pointer;
+            transition:0.5s ;
+            width: 270px;
+            box-shadow: 0px 0px 8px grey;
+        }
+        
+        }
+
+        @media screen and (min-width: 600px) and (max-width:900px){
+            .container-mainimg{
+            display: flex;
+          flex-direction: column;
+        }
+        
+        .main-img{
+            box-shadow: 3px 3px 8px gray;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .virat{
+            border-radius: 5px;
+            height: 300px;
+            width: 400px;
+           
+        }
+        .text-heading{
+            font-size: 55px;
+            font: bold;
+           
+        }
+        .text{
+            font-size: 25px;
+            margin-left: 15px;
+        }
+        .logo-img{
+            height: 40px;
+            width: 40px;
+            
+        }
+        .title{
+            font-size: 15px;    
+        }
+         .menus
+        {
+            margin-left:15px ;
+            font-size: 16px;
+          
+            
+        }    
+        .nav-searchbar{
+            margin-left: auto;
+        }
+        #searchbar{
+            width: 120px;
+            height: 40px;
+           
+        }
+        .nav-menu{
+            margin-left: 5px;
+        }
+        #searchbar:hover{
+            width: 125px;
+            box-shadow: 0px 0px 8px grey;
+        }
+    }
+    @media screen and (min-width: 300px) and (max-width:600px){
+        .logo-img{
+            height: 40px;
+            width: 40px;
+            
+        }
+        .title{
+            font-size: 13px;    
+        }
+         .menus
+        {
+            margin-left:5px ;
+            font-size: 12px;
+          
+            
+        }    
+        .nav-searchbar{
+            margin-left: auto;
+        }
+        #searchbar{
+            width: 115px;
+            height: 40px;
+           
+        }
+        .nav-menu{
+            margin-left: 5px;
+        }
+        #searchbar:hover{
+            width: 120px;
+        } 
+        .container-mainimg{
+            display: flex;
+          flex-direction: column;
+        }
+        
+        .main-img{
+            box-shadow: 3px 3px 8px gray;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .virat{
+            border-radius: 5px;
+            height: 300px;
+            width: 400px;
+           
+        }
+        .text-heading{
+            font-size: 55px;
+            font: bold;
+           
+        }
+        .text{
+            font-size: 25px;
+            margin-left: 10px;
+        }
+        .main-text{
+          text-align: center;
+          padding: 20px;
+        }
+    }
+        
+    </style>
 </head>
 <body>
-    <h1>Home Page</h1>
+    <div class="container-navbar">
+    <div class="container-nav">
+        <div class="nav-logo">
+            <img src="./index-image/logo.jpg" alt="error" class="logo-img">
+        </div>
+        <div class="nav-title">
+            <span class="title">Watch Esquire</span>
+
+        </div>
+        <div class="nav-menu">
+            <a href="Index.html" class="menus">HOME</a>
+            <a href="about.html" class="menus">ABOUT</a>
+            <a href="login.html" class="menus">LOG-IN</a>
+            <a href="contact.html" class="menus">CONTACT</a>
+            <a href="contact.html" class="menus">MENU</a>
+        </div>
+        <div class="nav-searchbar">
+            <input type="search" id="searchbar" name="searchbar"placeholder="What are you search for">
+        </div>
+    </div>
+</div>
+    <div class="container-greetings">
+       <marquee><b class="greetings-text">WEL - COME TO WATCH ESQUIRES ....</b></marquee> 
+    </div>
+    <div class="container-mainimg">
+        <div class="main-img">
+            <img src="./index-image/main-img.jpg" class="virat">
+            </div>
+            <div class="main-text">
+                <span class="text-heading">BE ON TIME EVERY TIME !!!</span><br><br><br>
+                <span class="text"> Time is valuable , and when it is gone , it is gone . Time is wealth , and unlike money , when it is gone you cannot replace it .... Everyone looks at your watch and it represents who you are , your values and personal style ....</span>
+    
+            </div>
+            
+         </div>
 </body>
 </html>

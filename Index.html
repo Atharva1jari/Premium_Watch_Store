@@ -2,8 +2,123 @@
 <html lang="en">
 <head>
     <title>Premimum Watch Store</title>
+    <style>
+        body{
+            padding: none;
+        }
+        .container-navbar{
+            background-image: linear-gradient(#f7f8f8,#d0dbeb);
+            padding: 5px;
+            border-radius: 10px;
+            
+        }
+        .container-nav{
+            display: flex;
+            align-items: center;
+        }
+        .logo-img{
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+        }
+        .title{
+            font-size: 25px;
+            font: bold;
+        }
+        .nav-menu{
+            margin-left: 80px;
+        }
+        .menus
+        {
+            margin-left:40px ;
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        .nav-searchbar{
+            margin-left: auto;
+        }
+        #searchbar{
+            width: 270px;
+            height: 40px;
+            border-radius: 20px;
+            padding: 5px;
+            text-align: center;
+        }
+        #searchbar:hover{
+            cursor: pointer;
+            transition:0.5s ;
+            width: 270px;
+            box-shadow: 0px 0px 8px grey;
+        }
+        .container-greetings{
+            margin: 30px;
+            background-color:white ;
+            opacity: 0.8;   
+        }
+        .greetings-text{
+            font-size: 40px;
+
+        }
+        .container-mainimg{
+            display: flex;
+          justify-content: space-around;
+        }
+        .main-img{
+            box-shadow: 3px 3px 8px gray;
+            
+        }
+        .virat{
+            border-radius: 5px;
+            height: 300px;
+
+        }
+        .text-heading{
+            font-size: 55px;
+            font: bold;
+        }
+        .text{
+            font-size: 25px;
+            
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>Home Page</h1>
+    <div class="container-navbar">
+    <div class="container-nav">
+        <div class="nav-logo">
+            <img src="./index-image/logo.jpg" alt="error" class="logo-img">
+        </div>
+        <div class="nav-title">
+            <span class="title">Watch Esquire</span>
+
+        </div>
+        <div class="nav-menu">
+            <a href="Index.html" class="menus">HOME</a>
+            <a href="about.html" class="menus">ABOUT</a>
+            <a href="login.html" class="menus">LOG-IN</a>
+            <a href="contact.html" class="menus">CONTACT</a>
+            <a href="contact.html" class="menus">MENU</a>
+        </div>
+        <div class="nav-searchbar">
+            <input type="search" id="searchbar" name="searchbar"placeholder="What are you search for">
+        </div>
+    </div>
+</div>
+    <div class="container-greetings">
+       <marquee><b class="greetings-text">WEL - COME TO WATCH ESQUIRES ....</b></marquee> 
+    </div>
+    <div class="container-mainimg">
+        <div class="main-img">
+            <img src="./index-image/main-img.jpg" class="virat">
+            </div>
+            <div class="main-text">
+                <span class="text-heading">BE ON TIME EVERY TIME !!!</span><br><br><br>
+                <span class="text"> Time is valuable , and when it is gone , it is gone . Time is wealth , and unlike money , <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when it is gone you cannot replace it ....</span>
+    
+            </div>
+            
+         </div>
 </body>
 </html>

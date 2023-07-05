@@ -57,7 +57,7 @@
             opacity: 0.8;   
         }
         .greetings-text{
-            font-size: 40px;
+            font-size: 55px;
 
         }
         .container-mainimg{
@@ -77,7 +77,7 @@
 
         }
         .text-heading{
-            font-size: 55px;
+            font-size: 50px;
             font: bold;
         }
         .text{
@@ -241,6 +241,66 @@
           padding: 20px;
         }
     }
+    .categories-heading{
+        font: bold;
+        font-size: 50px;
+        text-align: center;
+      
+    }
+    .categories-sections{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .section-cards{
+        box-shadow: 3px 3px 8px gray;
+        background-image: linear-gradient(#f7f8f8,#d0dbeb);
+        padding: 5px;
+        border-radius: 20px;
+        height: 450px;
+        width: 350px;
+    }
+    .section-cards:hover{
+        width: 355px;
+        height: 455px;
+        transition: 0.5s;
+        box-shadow: 0px 0px 8px gray;
+        cursor: pointer;
+    } 
+    .card-img{
+       display: block;
+       margin: auto;
+       border-radius: 10px;
+       border: 3px solid rgb(176, 176, 234);
+       box-shadow: 0px 0px 8px skyblue;
+    }
+    .section-content{
+        text-align: center;
+        font-size: 20px;
+    }
+   .section-range{
+    font-size: 20px;
+    text-align: center;
+   
+   }
+   .section-heading{
+    text-align: center;
+    font-size: 25px;
+   }
+   .card-btn{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 20px;
+    width: 120px;
+    background-color: rgb(184, 184, 217);
+    border-color:black;
+    box-shadow: 0px 0px 5px gray;
+   }
+   .card-btn:hover{
+    background-color: rgb(118, 118, 209);
+   }
+
         
     </style>
 </head>
@@ -279,6 +339,33 @@
     
             </div>
             
+         </div>
+         <div class="container-categories">
+            <p class="categories-heading">CATEGORIES</p>
+            <div class="categories-sections">
+                <div class="section-cards">
+                    <img src="./index-image/male-img.jpg" class="card-img" height="200px" width="340px">
+                    <h3 class="section-heading"> MALE WATCHES</h3>
+                    <p class="section-content">Top brands available with great discounts.Find your dream watch and shine everywhere..</p>
+                    <p class="section-range"> range upto 5000-10000</p>
+                    <button class="card-btn"> See More</button>
+                </div>
+                <div class="section-cards">
+                    <img src="./index-image/female-img.jpg" class="card-img" height="200px" width="340px">
+                    <h3 class="section-heading">FEMALE WATCHES</h3>
+                    <p class="section-content">Top brands available with great discounts.Find your dream watch and shine everywhere..</p>
+                    <p class="section-range"> range upto 5000-25000</p>
+                    <button class="card-btn"> See More</button>
+                </div>
+                <div class="section-cards">
+                    <img src="./index-image/kid-img.jpg" class="card-img" height="200px" width="340px">
+                    <h3 class="section-heading"> KIDS WATCHES</h3>
+                    <p class="section-content">Top brands available with great discounts.Find your dream watch and shine everywhere..</p>
+                    <p class="section-range"> range upto 1000-10000</p>
+                    <button class="card-btn"> See More</button>
+                </div>
+            </div>
+
          </div>
 </body>
 </html>

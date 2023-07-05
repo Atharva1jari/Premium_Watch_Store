@@ -1,0 +1,80 @@
+body{
+    background: rgb(255, 255, 255);
+    margin: 0;
+    margin-top: -18px;
+    color: black;
+}
+
+.cur_loc span a{
+  font-size: 24px;
+  text-decoration: none;
+  color: #999999;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.brand_image img{
+   height: 180px;
+   width: 100%;
+   margin-top: -10px;
+}
+
+.search{
+display:inline-flex;
+flex-direction:row;
+align-items: center;
+width: 100%;
+}
+
+.search img{
+   height: 50px;
+   margin-left: 20px;
+}
+
+.search input{
+  height: 30px;
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: larger;
+}
+
+.main{
+  border: 2px solid black;
+  width: 100%;
+  padding: 3px;
+  margin: 5px;
+  display: flex;
+}
+
+.filter{
+ border: 2px solid black;
+ width: 12%;
+}
+
+.buy_sec{
+    border: 2px solid rgb(237, 16, 16);
+    width: 85% ;
+}
+
+.sort_by select{
+  margin: 10px;
+    height:3vw;
+    width: 100px;
+}
+
+.filter input{
+ margin-left: 20px ;
+}
+
+.price_range{
+  width: 88%;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.range{
+  margin-top: -30px;
+}

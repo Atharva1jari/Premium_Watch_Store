@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+    <style>
+        body
+        {
+            margin: 0;
+        }
+        .heading
+        {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    
+        .Menu
+        {
+            border: 1px solid black;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 5px;
+            color: black;
+        }
+        .Menu :hover
+        {
+            background-color: bisque;
+        }
+        .loginlogo
+        {
+            height: 300px;
+            width: 1520px;
+            padding-top:10px ;
+        }
+        @media screen and (max-width: 500px)
+        {
+          .loginlogo{
+          width: 500px;
+          height: 130px;
+          font-size: 40px;
+        }
+        }
+        .contanier
+        {
+            text-align: center;
+        }
+        .LoginHeading
+        {
+            color: black;
+        }
+        .LoginDetails
+        {
+            width: 330px;
+            height: 30px;
+        }
+        .LoginButton   
+        {
+            width: 338px;
+            height: 35px;
+            background-color: black;
+            color: aliceblue;
+            padding: 5px;
+        } 
+    </style>
+</head>
+<body>
+    <h1 class="heading">Premium Watch</h1>
+    <div class="navbar">
+        <a href="index.html" class="Menu"><b>Home</b></a>
+        <a href="" class="Menu"><b>About us</b></a>
+    </div>
+      <img class="loginlogo" src=".\../Images/Titan/loginlogo.jpg"/><br/>
+      <div class="contanier">
+         <h2 class="LoginHeading"><b>LOGIN</b></h2>
+         <input class="LoginDetails" type="Email" placeholder="Enter your email id"><br/><br/>
+         <input  class="LoginDetails"type="password" placeholder="Password"><br/><br/>
+         <a href=""> Forget your password?</a><br/><br/>
+         <button class="LoginButton">Login</button><br/><br/>
+         <a href="signuppage.html">New to Premium Watch? Create Account</a>
+
+      </div>
+ </div>
+</body>
+</html>

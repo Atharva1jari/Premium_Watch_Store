@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flex Boxes</title>
+    <style>
+       
+        .container {
+            background-color: white;
+            height: 630px;
+            width: 450px;
+            border-radius: 10px;
+            color: black;
+            margin-left:auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        @media screen and (min-width:600px)  and (max-width:1200px)
+        {
+        .watch1{
+        background-color:gray;
+        font-style: italic;
+        color:white;
+         }
+        }
+
+         @media screen and (min-width:600px)   and (max-width:1200px)
+        {
+        .watch2{
+        background-color:gray;
+        font-style: italic;
+         }
+
+        }
+
+        .watch1 {
+            border: 1px solid black;
+            margin: 10px;
+            padding: 8px;
+            border-radius: 15px;
+        }
+
+        .watch2 {
+            border: 1px solid black;
+            margin: 10px;
+            padding: 8px;
+            border-radius: 15px;
+        }
+
+        .watch {
+            height: 400px;
+            width: 390px;
+            border-radius: 110px;
+        }
+
+        .submit {
+            width: 90px;
+            border-radius: 5px;
+            margin-left: 10px;
+            color: aqua;
+            background-color: white;
+            box-sizing: 10px;
+            border-color: rgb(120, 242, 242);
+        }
+
+        .space {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="watch1">
+            <img src="fossil 1.jpg" class="watch">
+            <div class="space">
+                <h1>Fossil</h1>
+                <h3>Women | Jacqueline | Rose Gold Stainl... <br />
+                    <b>Rs 12495</b>
+                </h3>
+                <button class="submit"> Trending </button>
+            </div>
+        </div><br /><br /><br />
+
+        <div class="watch1">
+            <img src="fossil 2.jpg" class="watch">
+            <div class="space">
+                <h1>Fossil</h1>
+                <h3>Women | Virginia | Rose Gold Stainles...<br />
+                    <b>Rs 11995</b>
+                </h3>
+                <button class="submit"> Trending </button>
+            </div>
+        </div><br /><br /><br />
+
+        <div class="watch1">
+            <img src="fossil 3.jpg" class="watch">
+            <div class="space">
+            <h1>Fossil</h1>
+                <h3>Women | Carlie Mini | Rose Gold Stainles... <br/>
+                    <b>Rs 6645</b>
+                </h3>
+                <button class="submit">Trending</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="watch2">
+            <img src="fossil 4.jpg" class="watch">
+            <div class="space">
+                <h1>Fossil</h1>
+                <h3>Women | Carlie | Rose Gold Stainles...<br />
+                    <b>Rs 8995</b>
+                </h3>
+                <button class="submit">Trending</button>
+            </div>
+        </div>
+
+        <div class="watch2">
+            <img src="fossil 5.jpg" class="watch">
+            <div class="space">
+                <h1>Fossil</h1>
+                <h3>Women | Jacqueline | Rose Gold Stainless...<br />
+                    <b>Rs 12495</b>
+                </h3>
+                <button class="submit">Trending</button>
+            </div>
+        </div>
+
+        <div class="watch2">
+            <img src="fossil 6.jpg" class="watch">
+            <div class="space">
+                <h1>Fossil</h1>
+                <h3>Women | Virginia | Rose Gold Stainles...<br />
+                    <b>Rs 12495</b>
+                </h3>
+                <button class="submit">Trending</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

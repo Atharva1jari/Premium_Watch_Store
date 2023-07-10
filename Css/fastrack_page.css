@@ -1,0 +1,170 @@
+body {
+  background: rgb(255, 255, 255);
+  margin: 0;
+  margin-top: -18px;
+  color: black;
+  text-decoration: none;
+}
+
+.cur_loc {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+.cur_loc span a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #999999;
+  padding: 5px;
+  margin-left: 20px;
+}
+nav {
+  display: flex;
+  align-items: flex-end;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+/* .brand_image{  
+position: sticky; 
+top:37px ;
+z-index: 1;
+} */
+
+.brand_image img {
+  width: 100%;
+}
+
+.search {
+  background-color: white;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  position: sticky;
+  top: 37px;
+  z-index: 1;
+}
+
+.search img {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.search input {
+  height: 40px;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: larger;
+  background-color: #f7f4f4;
+}
+
+.main {
+  /* border: 2px solid black; */
+  width: 100%;
+  padding: 3px;
+  margin: 5px;
+  display: flex;
+}
+
+.filter {
+  /* border: 2px solid black; */
+  width: 12%;
+  overflow-x: scroll;
+  height: fit-content;
+  position: sticky;
+  top: 45px;
+}
+
+.buy_sec {
+  /* border: 2px solid rgb(237, 16, 16); */
+  width: 88%;
+  padding-top: 5px;
+  overflow-y: scroll;
+}
+
+.sort_by select {
+  margin: 10px;
+  height: 3vw;
+  width: 100px;
+}
+
+.filter input {
+  margin-left: 20px;
+}
+
+.price_range {
+  width: 88%;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.range {
+  margin-top: -30px;
+}
+
+.card_sec {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  overflow: scroll;
+}
+
+.card {
+  margin-left: 5px;
+  /* border: 2px solid black; */
+  width: 220px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px 2px #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image_sec {
+  position: relative;
+  width: 202px;
+  height: 200px;
+  margin-left: 9px;
+}
+
+.watch_img {
+  position: absolute;
+  width: 198px;
+}
+
+.favorite {
+  position: absolute;
+  width: 25px;
+  top: 10px;
+  right: -10px;
+}
+
+ .add_cart {
+  position: absolute;
+  width: 25px;
+  top: 50px;
+  right: -10px;
+} 
+
+.info {
+  padding: 8px;
+  width: 202px;
+}
+
+.watch_name {
+  font-size: 12px;
+  font-weight: 500;
+}

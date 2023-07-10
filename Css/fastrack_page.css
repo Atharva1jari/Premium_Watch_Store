@@ -135,7 +135,7 @@ z-index: 1;
 
 .image_sec {
   position: relative;
-  width: 202px;
+  width: 208px;
   height: 200px;
   margin-left: 9px;
 }
@@ -149,14 +149,14 @@ z-index: 1;
   position: absolute;
   width: 25px;
   top: 10px;
-  right: -10px;
+  right: 15px;
 }
 
  .add_cart {
   position: absolute;
-  width: 25px;
+  width: 18px;
   top: 50px;
-  right: -10px;
+  right: 15px;
 } 
 
 .info {

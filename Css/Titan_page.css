@@ -110,6 +110,8 @@ z-index: 1;
 }
 
 .card{
+  background-color: #dbdada;
+  padding: 5px;
   margin-left: 5px;
   /* border: 2px solid black; */
    width:fit-content;

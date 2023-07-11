@@ -118,6 +118,8 @@ z-index: 1;
 }
 
 .card {
+  background-color: #dbdada;
+  padding: 5px;
   margin-left: 5px;
   /* border: 2px solid black; */
   width: 220px;
@@ -168,3 +170,11 @@ z-index: 1;
   font-size: 12px;
   font-weight: 500;
 }
+.Adver_image
+{
+  width: 100%;
+  padding: 10px;
+}
+.Adver_image img{
+  width: 100%;
+  }

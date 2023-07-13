@@ -261,3 +261,28 @@ width: 100%;
             font-size: 20px; 
             cursor: pointer;
         }
+
+        .jump_sec{
+          display: flex;
+          justify-content: center;
+          height: 35px;
+        }
+      
+        .jump_sec button{
+          height: 30px;
+          width: 90px;
+          background-color: white;
+          font-size: 15px;
+          margin-left: 5px;
+          border: 1px solid #646464;
+          color:#636060 ;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      
+        .jump_sec button:hover{
+          height:33px ;
+          width: 93px;
+          color: #999999;
+          border: 1px solid #999999;
+        }

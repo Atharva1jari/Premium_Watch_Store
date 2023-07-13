@@ -110,7 +110,7 @@ z-index: 1;
 }
 
 .card{
-  background-color: #dbdada;
+  background-color: #f4f3f3;
   padding: 5px;
   margin-left: 5px;
   /* border: 2px solid black; */
@@ -137,6 +137,7 @@ z-index: 1;
 .watch_img{
   position: absolute;
   width: 198px;
+  mix-blend-mode: multiply;
 }
 
 .favorite{

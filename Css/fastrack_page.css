@@ -1,6 +1,8 @@
 body {
   background: rgb(255, 255, 255);
   margin: 0;
+
+  padding: 0;
   margin-top: -18px;
   color: black;
   text-decoration: none;
@@ -10,14 +12,13 @@ body {
   position: sticky;
   top: 0;
   z-index: 1;
-  background-color: white;
+  background-color: white; 
 }
 .cur_loc span a {
   font-size: 24px;
   text-decoration: none;
   color: #999999;
-  padding: 5px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 nav {
   display: flex;
@@ -28,14 +29,11 @@ nav {
   z-index: 10;
 }
 
-/* .brand_image{  
-position: sticky; 
-top:37px ;
-z-index: 1;
-} */
 
 .brand_image{
 display: flex;
+margin-top: -60px;
+margin-bottom: -50px;
 justify-content: center;
 background-color: black;
 position: sticky;
@@ -189,6 +187,14 @@ z-index: 1;
 }
 .Adver_image img{
   width: 100%;
+  }
+
+  .buy_but{
+    text-decoration: none;
+  }  
+
+  .buy_but a{
+    text-decoration: none;
   }
 
   .buy_but button{

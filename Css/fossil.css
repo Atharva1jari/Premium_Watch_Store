@@ -167,6 +167,14 @@ right: -5px;
   font-weight: 500;
 }
 
+.buy_but{
+text-decoration: none;
+}
+
+.buy_but a{
+  text-decoration: none;
+}
+
 .buy_but button{
   display: block;
   margin-left: auto;

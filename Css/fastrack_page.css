@@ -1,45 +1,34 @@
 body {
   background: rgb(255, 255, 255);
   margin: 0;
+  padding: 0;
   margin-top: -18px;
   color: black;
   text-decoration: none;
 }
 
-.cur_loc {
+.cur_loc{
   position: sticky;
   top: 0;
   z-index: 1;
   background-color: white;
 }
-.cur_loc span a {
+.cur_loc span a{
   font-size: 24px;
   text-decoration: none;
   color: #999999;
   padding: 5px;
   margin-left: 20px;
 }
-nav {
-  display: flex;
-  align-items: flex-end;
-  position: sticky;
-  top: 0;
-  background-color: white;
-  z-index: 10;
-}
-
-/* .brand_image{  
-position: sticky; 
-top:37px ;
-z-index: 1;
-} */
 
 .brand_image{
 display: flex;
+margin-top: -60px;
+margin-bottom: -50px;
 justify-content: center;
 background-color: black;
 position: sticky;
-top: 50px;
+top: 27px;
 z-index: 1;
 }
 
@@ -166,12 +155,12 @@ z-index: 1;
   right: 15px;
 }
 
- .add_cart {
+.add_cart{
   position: absolute;
-  width: 18px;
-  top: 50px;
-  right: 15px;
-} 
+  width: 35px;
+  top: 45px;
+  right: 5px;
+  }
 
 .info {
   padding: 8px;
@@ -189,6 +178,14 @@ z-index: 1;
 }
 .Adver_image img{
   width: 100%;
+  }
+
+  .buy_but{
+    text-decoration: none;
+  }  
+
+  .buy_but a{
+    text-decoration: none;
   }
 
   .buy_but button{

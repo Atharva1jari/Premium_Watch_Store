@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+border:2px solid black;
+width: 100%;
+text-align: center;
+/* background-image: linear-gradient(rgb(148, 136, 255),rgb(232, 131, 255),rgb(210, 255, 148)); */
+/* background-color:rgb(198, 194, 194); */
+background-image: linear-gradient(#f7f8f8,#d0dbeb);
+
+}
+
+.header img{
+    width: 100px;
+    mix-blend-mode: multiply;
+}
+
+header P{
+    display: inline;
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -28px;
+    left: -15px;
+    color: darkslateblue;
+    
+}
+
+.text{
+    border: 2px solid black;
+    text-align: center;
+    display:block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.sub_text{
+margin-top:-12px ;
+}
+
+.main{
+    /* border: 2px solid rgb(245, 6, 6); */
+    width: 550px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+details summary{
+    /* border: 2px solid blueviolet; */
+    height: 50px;
+    border: 1px solid black;
+    border-bottom: none; 
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+
+.address_form{
+    border: 1px solid black;
+    padding: 5px;
+    height: fit-content;
+    border-top:none ;
+
+}
+
+summary h3{
+   position: relative;
+   bottom:39px;
+   left: 15px; 
+}
+
+.address_form{
+    margin-top: -15px;
+}
+
+.address_form label{
+    font-size: 18px;
+    font-weight: 550;  
+}
+
+.address_form input{
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.address_form textarea{
+   padding: 5px;
+   margin-bottom: 10px;
+   margin-top: 5px;
+   margin-left: 5px;
+   border-radius: 4px;
+   border-left: none;
+   border-top: none;
+   font-size: 18px;
+}
+
+.address_form textarea:hover{
+    border: 1px solid black;
+}
+
+.address_form input:hover{
+     border: 1px solid black;;
+}
